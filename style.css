@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ html{
+   font-size:  62.5%;
+
+  }
+body{
+
+  
+  background-color: rgb(164, 177, 177);
+}
+
+
+  .cantainer{
+  
+  height: 100%;
+  width: 100%;
+  position: relative;
+ 
+}
+.box{
+  width: 40rem;
+  height:40rem;
+ background-color: brown;
+   
+   border: 2px solid black;
+position: absolute;
+left: 50%;
+top:50%;
+transform: translate(-50%,-50%);
+  
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+#item{
+ margin: 2rem;
+ width:25rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    border: .2rem solid black;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.addbtn{
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;    
+}
+.addbtn:hover{
+cursor: pointer;
+background-color: cadetblue;
+
+}
+
+
+#to-do-box{
+
+list-style: none;
+margin-left:2rem;
+height:2.5rem;
+margin: right 2rem;;
+border: none;
+
+}
+#to-do-box li{
+    background-color: aqua;
+    height: 2.5rem;  
+    border-radius: 0.5rem; 
+    position: relative ;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+#to-do-box li button{
+  position: absolute;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius:.5rem;
+  background-color: black;
+  color: white;  
+  right:.0rem;
+}
+#to-do-box li button:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.done{
+  text-decoration: line-through;
+  background-color:red
+}
+
+@media(max-width:480px)
+{
+  html{
+  font-size:40%;
+}
+.box{
+width: 90%;
+height: 100%;
+margin-top:2rem;
+
+
+}
+
+
+
+}
+@media(max-width:768px)and(min-width:481px){
+html{
+
+  font-size: 50%;
+}
+
+}
+@media(max-width:1024px)and(min-width:769px){
+  html{
+    font-size: 62.5%;
+  }
+  
+
+}
+
+@media(max-width:1200px)and(min-width:1025px){
+ html{
+  font-size: 70%;
+}
+}
