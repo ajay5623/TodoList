@@ -92,7 +92,11 @@ border: none;
   background-color: black;
   color: white;  
   right:.0rem;
+
 }
+
+ 
+
 #to-do-box li button:hover{
     background-color: cadetblue;
     cursor: pointer;
